@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/formulario.css">
+    <link rel="stylesheet" href="../src/css/seleccionado.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>e-commerce para el Challenge ONE Sprint 04</title>
+</head>
+<body>
+<header class="cabecera">
+    <div class="cabecera__menu">
+        <section class="cabecera__busqueda">
+            <a href="../index.html"><img class="cabecera__logo" src="../src/img/logo.svg" alt="AluraGeek"></a>
+            <form class="cabecera__formbuscar" action="javascript:void(0);">
+                <div class="cabecera__formbuscar__box">
+                    <input class="cabacera__search" type="search" placeholder="¿Qué buscas? ">
+                    <button class="cabecera__formbuscar__box-boton">&#128269;</button>
+                </div>
+            </form>
+        </section>
+        <a href="../login.html">
+            <button class="cabecera__login">Login</button>
+        </a>
+        <img class="cabacera__logo-search" src="../src/img/search.svg" alt="Buscar">
+    </div>
+</header>
+<main>
+    <section class="seleccionado">    
+        <div class="seleccionado__caja-imagen">
+            <img class="seleccionado__imagen" src="9.png" alt="">
+        </div>
+        <div class="seleccionado__inf">
+            <h2 class="seleccionado__inf__titulo">Taza Dragon Ball</h2>
+            <p class="seleccionado_inf__precio">&#8353; 12,500.00</p>
+            <p class="seleccionado__inf__descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat lectus enim, non gravida mauris consectetur quis. Praesent sit amet velit in purus porta hendrerit. Ut in interdum eros, faucibus vestibulum sem. Nunc posuere diam est, nec varius lacus dignissim vel. Cras odio orci, blandit nec tempus nec, semper et metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam in ex nec justo egestas ultrices. Curabitur eget feugiat justo, a tempus lorem.</p>
+        </div>
+    </section>
+   <section class="clasificados">
+        <div class="clasificados__cabecera">
+            <h2 class="clasificados__cabecera_titulo">Tazas</h2>
+            <a class="clasificados__cabecera__ver" href="#">Ver todo</a>
+        </div>
+        <div class="clasificados__productos">
+            <div class="clasificados__box">
+                <img class="clasificados__box__imagen" src="7.png">
+                <p class="clasificados__box__titulo">Taza Darth Vader</p>
+                <p class="clasificados__box__precio">&#8353; 14,500.00</p>
+                <a class="clasificados__box__ver" href="7.html">Ver más</a>
+            </div>
+            <div class="clasificados__box">
+                <img class="clasificados__box__imagen" src="8.png">
+                <p class="clasificados__box__titulo">Taza BB-8</p>
+                <p class="clasificados__box__precio">&#8353; 12,500.00</p>
+                <a class="clasificados__box__ver" href="8.html">Ver más</a>
+            </div>
+            <div class="clasificados__box">
+                <img class="clasificados__box__imagen" src="9.png">
+                <p class="clasificados__box__titulo">Taza Dragon Ball</p>
+                <p class="clasificados__box__precio">&#8353; 11,500.00</p>
+                <a class="clasificados__box__ver" href="9.html">Ver más</a>
+            </div>
+            <div class="clasificados__box">
+                <img class="clasificados__box__imagen" src="10.png">
+                <p class="clasificados__box__titulo">Taza Game Over</p>
+                <p class="clasificados__box__precio">&#8353; 11,500.00</p>
+                <a class="clasificados__box__ver" href="10.html">Ver más</a>
+            </div>
+            <div class="clasificados__box">
+                <img class="clasificados__box__imagen" src="11.png">
+                <p class="clasificados__box__titulo">Taza Gryffindor</p>
+                <p class="clasificados__box__precio">&#8353; 10,500.00</p>
+                <a class="clasificados__box__ver" href="11.html">Ver más</a>
+            </div>
+            <div class="clasificados__box">
+                <img class="clasificados__box__imagen" src="12.png">
+                <p class="clasificados__box__titulo">Taza Grinch</p>
+                <p class="clasificados__box__precio">&#8353; 20,500.00</p>
+                <a class="clasificados__box__ver" href="12.html">Ver más</a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <section class="contacto">
+        <div class="contacto__quienes-somos">
+            <div class="contacto__caja-logo">
+                <img class="contacto__logo" src="../src/img/logo.svg">
+            </div>
+            <div class="contacto__caja-link">
+                <a class="contacto__link" href="#">Quiénes somos</a>
+                <a class="contacto__link" href="#">Política de privacidad</a>
+                <a class="contacto__link" href="#">Programa de fidelidad</a>
+                <a class="contacto__link" href="#">Nuestras tiendas</a>
+                <a class="contacto__link" href="#">Franquicias</a>
+                <a class="contacto__link" href="#">Anúnciese aquí</a>
+            </div>
+        </div>
+        <div class="contacto__caja-form">
+            <h2 class="contacto__titulo">Contáctanos</h2>
+            <form class="contacto__form" action="javascript:void(0);">
+                <div class="contacto__form__box">
+                    <input type="text" class="contacto__form__input" placeholder="Nombre completo" required>
+                    <label class="contacto__form__label">Nombre completo</label>
+                </div>
+                <div class="contacto__form__box">
+                    <input type="email" class="contacto__form__input" placeholder="Correo electrónico" required>
+                    <label class="contacto__form__label">Correo electrónico</label>
+                </div>
+                <div class="contacto__form__box">
+                    <input type="text" class="contacto__form__input" placeholder="Asunto" required>
+                    <label class="contacto__form__label">Asunto</label>
+                </div>
+                <div class="contacto__form__box">
+                    <textarea class="contacto__form__input" placeholder="Mensaje" required></textarea>
+                    <label class="contacto__form__label">Mensaje</label>
+                </div>
+                <button class="contacto__form__boton">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <section class="footer">    
+    </section>
+</body>
+</html>
